@@ -1,0 +1,141 @@
+Basic:
+  - Twin:
+    - Double Twin:
+      - Triple Twin
+      - Hewn Double
+      - Auto-Double
+      - Bent Double
+    - Triple Shot:
+      - Penta Shot
+      - Spreadshot
+      - Bent Hybrid
+      - Bent Double
+      - Triplet
+    - Gunner: &GunnerUpgrades
+      - Auto-Gunner
+      - Nailgun
+      - Auto-4
+      - Machine Gunner
+      - Gunner Trapper
+      - Cyclone
+      - Overgunner
+    - Hexa Tank: &HexaTankUpgrades
+      - Octo Tank
+      - Cyclone
+      - Hexa-Trapper
+    -
+      - Dual
+      - Bulwark
+      - Musket
+  - Sniper:
+    - Assassin:
+      - Ranger
+      - Falcon
+      - Stalker
+      - Auto-Assassin
+    - Hunter:
+      - Predator
+      - Poacher
+      - Ordnance
+      - Sidewinder
+      - Dual
+    - Minigun: &MinigunUpgrades
+      - Streamliner
+      - Nailgun
+      - Crop Duster
+      - Barricade
+    - Rifle:
+      - Musket
+    -
+      - Bushwhacker
+  - Machine Gun:
+    - Artillery: &ArtilleryUpgrades
+      - Mortar
+      - Ordnance
+      - Spreadshot
+      - Skimmer
+      - Twister
+    - Minigun: *MinigunUpgrades
+    - Gunner: *GunnerUpgrades
+    -
+      - Sprayer
+  - Flank Guard:
+    - Hexa Tank: *HexaTankUpgrades
+    - Tri-Angle:
+      - Fighter
+      - Booster
+      - Falcon
+      - Bomber
+      - Auto-Tri-Angle
+      - Surfer
+      - Eagle
+    - Auto-3:
+      - Auto-5
+      - Mega-3
+      - Auto-4
+      - Banshee
+    - Trap Guard: &TrapGuardUpgrades
+      - Bushwhacker
+      - Gunner Trapper
+      - Bomber
+      - Conqueror
+      - Bulwark
+    - Tri-Trapper: &TriTrapperUpgrades
+      - Fortress
+      - Hexa-Trapper
+      - Septa-Trapper
+      - Architect
+  - Director:
+    - Overseer:
+      - Overlord
+      - Overtrapper
+      - Overgunner
+      - Banshee
+      - Auto-Overseer
+      - Overdrive
+    - Cruiser:
+      - Carrier
+      - Battleship
+      - Fortress
+    - Underseer:
+      - Necromancer
+      - Maleficitor
+    - Spawner:
+      - Factory
+      - Auto-Spawner
+    -
+      - Manager
+  - Pounder:
+    - Destroyer:
+      - Conqueror
+      - Annihilator
+      - Hybrid
+      - Constructor
+      - Swarmer
+    - Builder: &BuilderUpgrades
+      - Constructor
+      - Auto-Builder
+      - Engineer
+      - Boomer
+      - Architect
+      - Conqueror
+    - Artillery: *ArtilleryUpgrades
+    -
+      - Shotgun
+      - Eagle
+  - Trapper:
+    - Builder: *BuilderUpgrades
+    - Tri-Trapper: *TriTrapperUpgrades
+    - Trap Guard: *TrapGuardUpgrades
+    -
+      - Barricade
+      - Overtrapper
+  - 
+    - Smasher:
+      - Mega-Smasher
+      - Spike
+      - Auto-Smasher
+      - Landmine
+  -
+    -
+      - Single
